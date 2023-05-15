@@ -1,0 +1,21 @@
+{
+  "name": "next-react-typescript-mfe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "host",
+    "remote"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace host dev\" \"yarn workspace remote start\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "concurrently": "^8.0.1",
+    "typescript": "^5.0.4"
+  }
+}

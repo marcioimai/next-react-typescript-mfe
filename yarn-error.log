@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add -D typescript @types/react @types/react-dom \
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\erl10.7\bin;C:\Program Files\Git\cmd;C:\oracle\instantclient_21_3;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\marci\AppData\Local\Microsoft\WindowsApps;C:\Users\marci\AppData\Local\nvs\;C:\Users\marci\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marci\AppData\Local\GitHubDesktop\bin;C:\Users\marci\AppData\Roaming\npm;C:\Users\marci\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, lstat 'C:\DumpStack.log.tmp'
+
+npm manifest: 
+  {
+    "name": "next-react-typescript-mfe",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
